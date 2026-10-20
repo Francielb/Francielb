@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A safe, synthetic-data UI showcase of a marine service CRM workflow. Independent portfolio prototype; no private CRM source or customer records.">
+<meta name="referrer" content="no-referrer">
+<title>MarineOps CRM · Interactive Portfolio Showcase</title>
+<style>
+:root{color-scheme:light;--ink:#142739;--muted:#5d7184;--line:#dfe8ee;--bg:#f3f7fa;--card:#fff;--teal:#087b78;--teal-weak:#e0f5f0;--orange:#c16c19;--orange-weak:#fff3e3;--red:#b74750;--red-weak:#fff0f1;--shadow:0 15px 42px rgba(22,48,75,.055)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer}a{color:var(--teal)}.layout{min-height:100vh;display:grid;grid-template-columns:240px minmax(0,1fr)}aside{background:#12293e;color:#f0f7f9;padding:27px 17px;display:flex;flex-direction:column;gap:26px}.brand{display:flex;align-items:center;gap:12px;padding:3px 8px}.mark{width:42px;height:42px;background:#10b9ab;border-radius:13px;color:#093e3d;display:grid;place-items:center;font-size:19px;font-weight:900}.brand strong{font-size:15px;display:block;line-height:1.2}.brand small{font-size:11px;color:#aac3d0}.aside-label{padding:0 13px;font-size:10px;font-weight:800;letter-spacing:.16em;color:#81a3b2;text-transform:uppercase}.nav{display:grid;gap:5px}.nav button{border:0;width:100%;text-align:left;background:transparent;color:#c7dbe4;border-radius:10px;padding:12px 14px;font-weight:650}.nav button.active,.nav button:hover,.nav button:focus-visible{background:#244e60;color:#fff;outline:none}.nav button span{display:inline-block;width:27px;color:#64e1d4}.aside-bottom{margin-top:auto;padding:17px 13px;border-top:1px solid #315264;font-size:12px;line-height:1.6;color:#a5c0ce}.aside-bottom b{color:#e6fcf8}main{padding:32px clamp(18px,4vw,57px) 45px;max-width:1530px;width:100%;margin:0 auto}.topline{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.eyebrow{color:var(--teal);text-transform:uppercase;letter-spacing:.13em;font-weight:850;font-size:10px}.title{font-size:clamp(26px,3vw,38px);line-height:1.1;letter-spacing:-.045em;margin:8px 0 9px;font-weight:850}.subtitle{margin:0;color:var(--muted);max-width:725px}.flag{background:#fff6de;color:#8a5e13;border:1px solid #f0dfa7;border-radius:100px;font-size:12px;font-weight:750;padding:8px 12px}.notice{margin:25px 0;border:1px solid #b4dcd6;background:#eafbF7;padding:14px 17px;border-radius:14px;font-size:13px;color:#145b58}.view{display:none}.view.active{display:block}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:22px}.metric{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:18px 19px;box-shadow:var(--shadow)}.metric small{display:block;color:var(--muted);font-size:12px;font-weight:650}.metric strong{display:block;font-size:29px;letter-spacing:-.05em;margin-top:4px}.metric em{display:block;font-size:11px;color:#6d8795;font-style:normal;margin-top:2px}.dual{display:grid;grid-template-columns:1.35fr 1fr;gap:17px}.panel{background:var(--card);border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow);margin-bottom:18px;overflow:hidden}.panel-head{padding:21px 21px 15px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.panel-head h2{margin:0;font-size:17px;letter-spacing:-.02em}.panel-head p{margin:5px 0 0;color:var(--muted);font-size:12px}.panel-body{padding:0 21px 22px}.button{background:#147e77;color:#fff;padding:10px 13px;border:0;border-radius:10px;font-weight:750;font-size:12px}.button.ghost{background:#e5f3f1;color:#136c68}.pill{border-radius:100px;padding:5px 10px;background:var(--teal-weak);color:#146a62;font-size:11px;font-weight:800;display:inline-flex;align-items:center;white-space:nowrap}.pill.warm{background:var(--orange-weak);color:var(--orange)}.pill.red{background:var(--red-weak);color:var(--red)}.list{list-style:none;padding:0;margin:0}.list li{padding:15px 0;border-top:1px solid #edf1f4;display:flex;justify-content:space-between;align-items:center;gap:15px}.list h3{font-size:13px;margin:0 0 3px}.list p{font-size:11px;color:var(--muted);margin:0}.count{font-weight:900;font-size:25px}.stage-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:7px}.stage-card{background:#f7fafb;border:1px solid #e6eef2;border-radius:11px;padding:12px}.stage-card b{display:block;font-size:14px}.stage-card small{color:var(--muted);font-size:11px}.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}.search{border:1px solid #dae5ea;padding:10px 12px;border-radius:10px;min-width:220px;flex:1}.filters{display:flex;gap:5px;flex-wrap:wrap}.filters button{border:1px solid #d9e7ed;border-radius:9px;color:var(--muted);background:white;padding:9px 10px;font-size:12px}.filters button.selected{background:#187f79;color:white;border-color:#187f79}.table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:740px;text-align:left}th{background:#f5f8fa;color:#73899a;font-size:10px;letter-spacing:.07em;text-transform:uppercase}th,td{padding:14px 17px;border-bottom:1px solid #eaf0f2}td{font-size:13px}tbody tr:last-child td{border:0}.tdstrong{font-weight:750}.tdsub{color:var(--muted);font-size:11px;display:block}.stage-select{border:1px solid #d7e4ea;background:#fff;border-radius:9px;padding:8px;max-width:176px;font-size:11px;font-weight:650;color:var(--ink)}.callout{background:#f4f9f8;border:1px solid #d9ece6;border-radius:13px;padding:17px;color:#235f5b;font-size:13px;margin:12px 0}.records{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.record{border:1px solid #dce8ed;border-radius:14px;padding:17px}.record strong{display:block;font-size:14px}.record small{color:#668092}.record p{margin:8px 0 0;font-size:12px}.text-cols{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.text-cols h3{margin:15px 0 8px;font-size:14px}.text-cols p,.text-cols li{font-size:13px;color:var(--muted)}.text-cols ul{padding-left:20px}.footer{font-size:11px;color:#8ca0ae;border-top:1px solid #dbe5eb;padding-top:16px;margin-top:22px}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1100px){.grid{grid-template-columns:repeat(2,1fr)}.dual{grid-template-columns:1fr}}@media(max-width:700px){.layout{display:block}aside{padding:15px 16px;gap:12px}.brand{padding:0}.aside-label,.aside-bottom{display:none}.nav{display:flex;overflow-x:auto;gap:4px}.nav button{width:auto;flex:0 0 auto;padding:9px}.nav button span{width:auto;margin-right:5px}main{padding:22px 15px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.metric{padding:13px}.metric strong{font-size:23px}.stage-grid,.records,.text-cols{grid-template-columns:1fr}.flag{font-size:10px}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside aria-label="Demo navigation">
+ <div class="brand"><div class="mark">M</div><div><strong>MarineOps CRM</strong><small>PORTFOLIO SHOWCASE</small></div></div>
+ <div><div class="aside-label">Workspace</div><nav class="nav" aria-label="Sections">
+ <button class="active" data-view="dashboard" aria-current="page"><span>◫</span> Dashboard</button>
+ <button data-view="pipeline"><span>◇</span> Sales pipeline</button>
+ <button data-view="records"><span>▤</span> Customer records</button>
+ <button data-view="about"><span>ⓘ</span> About this demo</button>
+ </nav></div>
+ <div class="aside-bottom"><b>Safe public preview</b><br>Illustrative standalone interface. Synthetic data only. No backend, authentication, persistent storage, analytics or external network requests.</div>
+</aside>
+<main>
+ <div class="topline"><div><div class="eyebrow">Independent software portfolio · Python / Django case study</div><h1 class="title">Sales &amp; service overview</h1><p class="subtitle">A visual demonstration of business workflows modeled in the private Marine Service CRM project.</p></div><span class="flag">● SYNTHETIC DEMO DATA</span></div>
+ <div class="notice" role="note"><strong>Illustrative UI, not the deployed CRM.</strong> This is a separate static front-end showcase based on documented CRM concepts. All customers, vessels, values and activity are invented; changes reset on reload.</div>
+ <section id="dashboard" class="view active" aria-label="Dashboard">
+  <div class="grid">
+   <div class="metric"><small>Active opportunities</small><strong id="metric-active">4</strong><em>Excludes closed stages</em></div>
+   <div class="metric"><small>Estimated active pipeline</small><strong id="metric-value">$23,300</strong><em>Illustrative amount only</em></div>
+   <div class="metric"><small>Needs a follow-up</small><strong id="metric-overdue">2</strong><em>Synthetic overdue items</em></div>
+   <div class="metric"><small>Inactivity radar</small><strong id="metric-stale">2</strong><em>No contact / 7+ days</em></div>
+  </div>
+  <div class="dual">
+   <article class="panel"><div class="panel-head"><div><h2>Opportunity radar</h2><p>Find open deals without a recent interaction.</p></div><span class="pill warm">7-day rule</span></div><div class="panel-body"><ul class="list" id="radar-list"></ul></div></article>
+   <article class="panel"><div class="panel-head"><div><h2>Workflow snapshot</h2><p>Three key concepts in the CRM.</p></div></div><div class="panel-body"><div class="stage-grid"><div class="stage-card"><b>Customers</b><small>Central contact records</small></div><div class="stage-card"><b>Opportunities</b><small>Nine pipeline stages</small></div><div class="stage-card"><b>Follow-ups</b><small>Dates and status</small></div></div><div class="callout">The actual project uses Django models, relationships and server-side views. This static preview simulates UI behavior only.</div><button class="button" data-goto="pipeline">Explore pipeline →</button></div></article>
+  </div>
+  <article class="panel"><div class="panel-head"><div><h2>Upcoming actions</h2><p>Sample tasks for illustrative service customers.</p></div></div><div class="panel-body"><ul class="list"><li><div><h3>Confirm proposed inspection</h3><p>Demo Client A · Vessel Alpha</p></div><span class="pill red">Overdue</span></li><li><div><h3>Schedule assessment call</h3><p>Demo Client C · Vessel Gamma</p></div><span class="pill red">Overdue</span></li><li><div><h3>Check maintenance proposal</h3><p>Demo Client B · Vessel Beta</p></div><span class="pill">Upcoming</span></li></ul></div></article>
+ </section>
+ <section id="pipeline" class="view" aria-label="Sales pipeline">
+ <article class="panel"><div class="panel-head"><div><h2>Sales opportunities</h2><p>Filter and change stages in this browser-only simulation. Nothing is saved.</p></div><button class="button ghost" id="reset-demo">Reset demo</button></div><div class="panel-body"><div class="toolbar"><label for="pipeline-search" class="sr-only">Search opportunities</label><input id="pipeline-search" class="search" type="search" placeholder="Search customer, opportunity or vessel..." autocomplete="off"><div class="filters" role="group" aria-label="Pipeline filters"><button data-filter="all" class="selected" aria-pressed="true">All</button><button data-filter="active" aria-pressed="false">Active</button><button data-filter="attention" aria-pressed="false">Needs attention</button><button data-filter="closed" aria-pressed="false">Closed</button></div></div></div><div class="table-scroll"><table><thead><tr><th>Opportunity</th><th>Customer / vessel</th><th>Estimated value</th><th>Contact</th><th>Stage (local only)</th></tr></thead><tbody id="pipeline-rows"></tbody></table></div></article>
+ <div class="callout" id="pipeline-status" role="status">This interface uses fictional sample records. Changing a stage updates this page only; the real project and GitHub repository are not affected.</div>
+ </section>
+ <section id="records" class="view" aria-label="Customer records"><article class="panel"><div class="panel-head"><div><h2>Related business records</h2><p>A simplified representation of customer → vessel → opportunity associations.</p></div></div><div class="panel-body"><div class="records"><div class="record"><strong>Demo Client A</strong><small>Customer · sample record</small><p>Vessel Alpha · Propulsion inspection</p></div><div class="record"><strong>Demo Client B</strong><small>Customer · sample record</small><p>Vessel Beta · Preventive maintenance</p></div><div class="record"><strong>Demo Client C</strong><small>Customer · sample record</small><p>Vessel Gamma · Control system assessment</p></div><div class="record"><strong>Demo Client D</strong><small>Customer · sample record</small><p>Vessel Delta · Technical service contract</p></div></div></div></article></section>
+ <section id="about" class="view" aria-label="About the portfolio showcase"><article class="panel"><div class="panel-head"><div><h2>What this preview demonstrates</h2><p>Business-to-software thinking, without publishing private code or real customer information.</p></div></div><div class="panel-body text-cols"><div><h3>The original project's technical focus</h3><ul><li>Python 3.14 / Django 6.1.1</li><li>PostgreSQL and relational Django ORM models</li><li>Sales pipeline, interactions and follow-up workflows</li><li>Dashboard calculations and inactivity rules</li><li>Automated regression tests in a private pull request</li></ul></div><div><h3>What this static site is <em>not</em></h3><ul><li>Not the original Django application or production dashboard</li><li>Not a live service connected to a customer database</li><li>Not evidence of real revenue, conversions or productivity gains</li><li>Not a benchmark, security audit or deployed backend</li></ul></div></div><div class="panel-body"><a class="button" style="display:inline-block;text-decoration:none" href="https://github.com/Francielb/Francielb/blob/main/portfolio/marine-service-crm.md" rel="noopener noreferrer">Read the technical case study ↗</a></div></article></section>
+ <footer class="footer">Portfolio concept by Franciel Gustavo Bresolin · All figures and names are fictional · Code runs locally in your browser · No data is collected or stored.</footer>
+</main>
+</div>
+<script>
+(() => {
+"use strict";
+const STAGES = [
+ ["novo_contato","New contact"],["entendimento_necessidade","Needs discovery"],
+ ["orcamento_preparacao","Quote preparation"],["orcamento_enviado","Quote sent"],
+ ["follow_up","Follow-up"],["aguardando_aceite","Awaiting approval"],
+ ["aguardando_entrada","Awaiting deposit"],["servico_confirmado","Confirmed"],["perdido","Lost"]
+];
+const INITIAL = [
+ {id:1,title:"Propulsion inspection",customer:"Demo Client A",vessel:"Vessel Alpha",value:4800,status:"orcamento_enviado",days:9,followup:"overdue"},
+ {id:2,title:"Preventive maintenance",customer:"Demo Client B",vessel:"Vessel Beta",value:7300,status:"follow_up",days:2,followup:"upcoming"},
+ {id:3,title:"Control system assessment",customer:"Demo Client C",vessel:"Vessel Gamma",value:2100,status:"novo_contato",days:null,followup:"overdue"},
+ {id:4,title:"Technical service contract",customer:"Demo Client D",vessel:"Vessel Delta",value:9100,status:"aguardando_aceite",days:1,followup:"upcoming"},
+ {id:5,title:"Archived sample opportunity",customer:"Demo Client E",vessel:"Vessel Echo",value:5100,status:"perdido",days:15,followup:"complete"}
+];
+const CLOSED = new Set(["servico_confirmado","perdido"]);
+const $ = (selector) => document.querySelector(selector);
+const $$ = (selector) => [...document.querySelectorAll(selector)];
+let opportunities = INITIAL.map(item => ({...item}));
+let filter = "all";
+const money = amount => "$" + amount.toLocaleString("en-US",{maximumFractionDigits:0});
+const isOpen = item => !CLOSED.has(item.status);
+const stale = item => isOpen(item) && (item.days === null || item.days > 7);
+function setView(view) {
+  $$(".view").forEach(item => item.classList.toggle("active",item.id===view));
+  $$(".nav button").forEach(button => {const active=button.dataset.view===view;button.classList.toggle("active",active);if(active)button.setAttribute("aria-current","page");else button.removeAttribute("aria-current");});
+  window.scrollTo({top:0,behavior:"auto"});
+}
+function render() {
+  const active = opportunities.filter(isOpen);
+  $("#metric-active").textContent = String(active.length);
+  $("#metric-value").textContent = money(active.reduce((sum,x)=>sum+x.value,0));
+  $("#metric-overdue").textContent = String(active.filter(x=>x.followup==="overdue").length);
+  const radar = active.filter(stale);
+  $("#metric-stale").textContent = String(radar.length);
+  $("#radar-list").replaceChildren();
+  if(!radar.length){const li=document.createElement("li");li.textContent="No simulated opportunities need attention.";$("#radar-list").append(li);}
+  radar.forEach(item=>{
+    const li=document.createElement("li"),left=document.createElement("div"),h=document.createElement("h3"),p=document.createElement("p"),badge=document.createElement("span");
+    h.textContent=item.title;p.textContent=item.customer+" · "+item.vessel;left.append(h,p);
+    badge.className="pill "+(item.days===null?"warm":"red");badge.textContent=item.days===null?"No contact recorded":item.days+" days since contact";
+    li.append(left,badge);$("#radar-list").append(li);
+  });
+  const query=$("#pipeline-search").value.toLowerCase().trim();
+  let rows=opportunities.filter(x=>(x.title+" "+x.customer+" "+x.vessel).toLowerCase().includes(query));
+  if(filter==="active")rows=rows.filter(isOpen);
+  if(filter==="closed")rows=rows.filter(x=>!isOpen(x));
+  if(filter==="attention")rows=rows.filter(stale);
+  $("#pipeline-rows").replaceChildren();
+  if(!rows.length){const tr=document.createElement("tr"),td=document.createElement("td");td.colSpan=5;td.textContent="No sample opportunities match these filters.";tr.append(td);$("#pipeline-rows").append(tr);}
+  for(const item of rows){
+    const tr=document.createElement("tr");
+    const td1=document.createElement("td"),primary=document.createElement("span");
+    primary.className="tdstrong";primary.textContent=item.title;td1.append(primary);
+    const td2=document.createElement("td");td2.textContent=item.customer;const sub=document.createElement("span");sub.className="tdsub";sub.textContent=item.vessel;td2.append(sub);
+    const td3=document.createElement("td");td3.textContent=money(item.value);
+    const td4=document.createElement("td"),p=document.createElement("span");p.className="pill "+(stale(item)?"red":"");
+    p.textContent=item.days===null?"No interaction":item.days+" days ago";td4.append(p);
+    const td5=document.createElement("td"),select=document.createElement("select");select.className="stage-select";select.setAttribute("aria-label","Stage for "+item.title);
+    STAGES.forEach(([value,label])=>{const option=document.createElement("option");option.value=value;option.textContent=label;select.append(option);});
+    select.value=item.status;select.addEventListener("change",()=>{
+      item.status=select.value;
+      $("#pipeline-status").textContent="Updated "+item.title+" locally to "+STAGES.find(([value])=>value===item.status)[1]+". Refresh or reset to restore the fictitious starting data.";
+      render();
+    });td5.append(select);tr.append(td1,td2,td3,td4,td5);$("#pipeline-rows").append(tr);
+  }
+}
+$$(".nav button").forEach(button=>button.addEventListener("click",()=>setView(button.dataset.view)));
+$$("[data-goto]").forEach(button=>button.addEventListener("click",()=>setView(button.dataset.goto)));
+$$("[data-filter]").forEach(button=>button.addEventListener("click",()=>{
+ filter=button.dataset.filter;
+ $$("[data-filter]").forEach(item=>{const selected=item===button;item.classList.toggle("selected",selected);item.setAttribute("aria-pressed",String(selected));});
+ render();
+}));
+$("#pipeline-search").addEventListener("input",render);
+$("#reset-demo").addEventListener("click",()=>{opportunities=INITIAL.map(item=>({...item}));$("#pipeline-search").value="";filter="all";$$("[data-filter]").forEach(item=>{const selected=item.dataset.filter==="all";item.classList.toggle("selected",selected);item.setAttribute("aria-pressed",String(selected));});$("#pipeline-status").textContent="All fictional opportunities reset to their original values. No data is stored or sent anywhere.";render();});
+render();
+})();
+</script>
+</body>
+</html>
