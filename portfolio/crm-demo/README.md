@@ -10,6 +10,12 @@
 
 The actual Marine Service CRM project uses Python, Django and relational data models to explore sales, follow-up and technical service workflows. Its code is private. This separate public HTML demo allows a recruiter to understand the product concepts **without** accessing a private codebase, customer names, credentials or databases.
 
+## Live standalone demo
+
+**[Open the fictional interactive showcase](https://franciel-marine-crm-showcase.vercel.app)**
+
+This is a separate, static Vercel-hosted simulation, not the private Django CRM or its production system. No information entered here is stored or sent to an application backend.
+
 ## Explore it locally in under a minute
 
 1. [Open **index.html** in GitHub](./index.html) and choose **Download raw file** (or download this portfolio repository).
@@ -18,7 +24,7 @@ The actual Marine Service CRM project uses Python, Django and relational data mo
 
 There is no installation, build, package manager, backend, account, or environment variable required.
 
-> GitHub's code view displays the **source** of an HTML file; it does not run that page. A shareable web URL requires enabling static hosting (for example GitHub Pages) for this repository. **No live public-demo URL is asserted here.**
+> GitHub's code view displays the HTML source rather than running it. The live static version is hosted separately on Vercel.
 
 ## What you can do
 
