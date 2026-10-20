@@ -63,6 +63,34 @@ A Python command-line script for photographic adjustments and exporting images i
 
 **Focus:** Python scripting, image processing and repeatable workflows.
 
+## 🎓 Learning & Certifications
+
+Completed courses on **Boot.dev**, supporting my ongoing transition into software development and data-focused work. Click each certificate to view its official verification page.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://www.boot.dev/certificates/c7e655c1-1f38-4d63-9f13-c30a2de40675"><img src="https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/c7e655c1-1f38-4d63-9f13-c30a2de40675.jpeg?v=1792528853" alt="Boot.dev Learn SQL course certificate" width="220"></a><br>
+      <strong>Learn SQL</strong><br>
+      <a href="https://www.boot.dev/certificates/c7e655c1-1f38-4d63-9f13-c30a2de40675">View verified certificate ↗</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.boot.dev/certificates/89ad5371-049d-47a8-ba68-b501be9f72dc"><img src="https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/89ad5371-049d-47a8-ba68-b501be9f72dc.jpeg?v=1786735541" alt="Boot.dev Introduction to Python course certificate" width="220"></a><br>
+      <strong>Introduction to Python</strong><br>
+      <a href="https://www.boot.dev/certificates/89ad5371-049d-47a8-ba68-b501be9f72dc">View verified certificate ↗</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.boot.dev/certificates/830ef172-778e-4cf7-990d-eacc5829f61f"><img src="https://qvault-webapp-dynamic-assets.storage.googleapis.com/certificates/830ef172-778e-4cf7-990d-eacc5829f61f.jpeg?v=1788075622" alt="Boot.dev Learn Linux course certificate" width="220"></a><br>
+      <strong>Learn Linux</strong><br>
+      <a href="https://www.boot.dev/certificates/830ef172-778e-4cf7-990d-eacc5829f61f">View verified certificate ↗</a>
+    </td>
+  </tr>
+</table>
+
+*Course certificates complement the hands-on projects above; they are not a substitute for professional experience.*
+
+---
+
 ## 🧭 What I'm working toward
 
 1. Strengthening Python, Django and SQL fundamentals with real projects
