@@ -24,7 +24,7 @@ I bring a background in **B2B marketing, content strategy, analytics and digital
 
 📖 **[Explore the public engineering case study →](./portfolio/marine-service-crm.md)**
 
-🧭 **[Explore the fictional interactive CRM showcase →](./portfolio/crm-demo/README.md)**
+🧭 **[Open the interactive CRM showcase →](https://franciel-marine-crm-showcase.vercel.app)** · [Source and safety notes](./portfolio/crm-demo/README.md)
 
 ![Illustrative demo UI, not an image of the real application](./portfolio/crm-demo/preview.svg)
 
