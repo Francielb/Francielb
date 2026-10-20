@@ -13,7 +13,7 @@
 
 ![Illustrative CRM dashboard from the separate public UI showcase; not an actual production screenshot](./crm-demo/preview.svg)
 
-**[View the standalone HTML demo source](./crm-demo/index.html)** · **[How to open and explore the demo](./crm-demo/README.md)**
+**[Launch the static interactive showcase](https://franciel-marine-crm-showcase.vercel.app)** · [View HTML source](./crm-demo/index.html) · **[How to open and explore the demo](./crm-demo/README.md)**
 
 This is a **separate, browser-only HTML/CSS/JavaScript simulation**, not the actual Django app. Its sample customer names, vessels and values are invented. It makes no external requests and does not store data. The SVG is a conceptual preview of the simulation, **not an authentic screenshot of the private CRM**.
 
