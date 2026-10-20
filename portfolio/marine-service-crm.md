@@ -9,6 +9,18 @@
 
 > **In 30 seconds:** A server-rendered Django CRM that models customers, commercial opportunities, interactions, scheduled follow-ups and equipment service history. It connects a sales pipeline to practical operational records, showing how business understanding can inform database design and application features.
 
+## Public UI demonstration (fictional data only)
+
+![Illustrative CRM dashboard from the separate public UI showcase; not an actual production screenshot](./crm-demo/preview.svg)
+
+**[View the standalone HTML demo source](./crm-demo/index.html)** · **[How to open and explore the demo](./crm-demo/README.md)**
+
+This is a **separate, browser-only HTML/CSS/JavaScript simulation**, not the actual Django app. Its sample customer names, vessels and values are invented. It makes no external requests and does not store data. The SVG is a conceptual preview of the simulation, **not an authentic screenshot of the private CRM**.
+
+### Test evidence and status
+
+A focused suite of **21 Django regression tests** covering business models, opportunity changes, follow-ups, dashboard calculations and utility functions **passed in GitHub Actions on a private proposed-change branch** (20 October 2026). This verifies those checks only; it does not establish production security, browser-level correctness or client adoption. Deployment changes are being reviewed separately, and this portfolio page does not claim a new live production release.
+
 ## 1. The business problem
 
 Sales and technical-service workflows require different kinds of information: who the customer is, what has been discussed, which opportunities need attention, and what equipment is associated with each request.
