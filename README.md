@@ -12,6 +12,22 @@ I bring a background in **B2B marketing, content strategy, analytics and digital
 - 📈 **Professional background:** B2B digital marketing, social media, performance analysis and brand communication
 - 🎯 **Open to:** junior software development, data analytics, marketing technology (MarTech), marketing automation and digital marketing roles
 
+## ⭐ Featured case study — Marine Service CRM
+
+**Business challenge:** Keeping customer relationships, sales opportunities, follow-ups and technical-service history connected in one practical workflow.
+
+**Built with:** Python 3.14 · Django 6.1.1 · PostgreSQL · SQLite (demo) · HTML/CSS.
+
+**What I implemented:** Six relational business-domain models, a nine-stage sales pipeline, customer and equipment records, follow-up management, dashboard queries and an inactivity radar.
+
+**What I'm improving:** Automated tests, authorization reviews, deployment validation and a fully sanitized public demo. No unverified revenue or productivity claims.
+
+📖 **[Explore the public engineering case study →](./portfolio/marine-service-crm.md)**
+
+*Personal project in development. The application source remains private; the case study is public and anonymized.*
+
+---
+
 ## 🛠 Technology & business skills
 
 | Software & data | Marketing & operations |
@@ -23,16 +39,9 @@ I bring a background in **B2B marketing, content strategy, analytics and digital
 
 I am **still learning** and use projects to develop and demonstrate these skills; the table is not a claim of expert-level proficiency.
 
-## 🚀 Selected projects
+## 🚀 Other projects
 
-The repositories below are **private**. These are portfolio summaries of work in progress, not links to publicly available source code.
-
-### 🗂️ CRM for Sales and Technical Operations
-**Python · Django · PostgreSQL · SQLite (demo)**
-
-A CRM project covering customer records, sales opportunities, follow-ups, dashboard views, vessel/technical records and an isolated demo mode with example data.
-
-**Focus:** Back-end development, relational data models, business workflows and application structure.
+The following projects are documented as portfolio summaries; their source repositories are currently **private**.
 
 ### 🌐 Responsive Websites & Interactive Experiences
 **HTML · CSS · JavaScript**
