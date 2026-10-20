@@ -24,6 +24,12 @@ I bring a background in **B2B marketing, content strategy, analytics and digital
 
 📖 **[Explore the public engineering case study →](./portfolio/marine-service-crm.md)**
 
+🧭 **[Explore the fictional interactive CRM showcase →](./portfolio/crm-demo/README.md)**
+
+![Illustrative demo UI, not an image of the real application](./portfolio/crm-demo/preview.svg)
+
+
+
 *Personal project in development. The application source remains private; the case study is public and anonymized.*
 
 ---
