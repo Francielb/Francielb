@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title description">
+<title id="title">MarineOps CRM conceptual portfolio interface</title>
+<desc id="description">Illustrative, fictional dashboard design. Not a screenshot of the actual CRM. Shows four synthetic summary metrics, an opportunity radar and sample follow-ups.</desc>
+<defs>
+<linearGradient id="fade" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f7fafc"/><stop offset="1" stop-color="#eef5f7"/></linearGradient>
+<filter id="shade" x="-10%" y="-10%" width="120%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#173d59" flood-opacity=".07"/></filter>
+</defs>
+<rect width="1200" height="740" fill="url(#fade)"/>
+<rect x="0" y="0" width="230" height="740" fill="#142d42"/>
+<rect x="21" y="28" width="44" height="44" rx="13" fill="#15b9ab"/>
+<text x="43" y="57" font-family="Arial,Helvetica,sans-serif" font-size="20" text-anchor="middle" fill="#0c4140" font-weight="bold">M</text>
+<text x="78" y="47" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#f4f9fb" font-weight="bold">MarineOps CRM</text>
+<text x="79" y="65" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#9bbdcb" letter-spacing="1.2">PORTFOLIO SHOWCASE</text>
+<text x="34" y="124" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="#8cafbd" letter-spacing="2" font-weight="bold">WORKSPACE</text>
+<rect x="17" y="145" width="195" height="46" rx="9" fill="#295365"/>
+<text x="37" y="173" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#fff" font-weight="bold">◫  Dashboard</text>
+<text x="38" y="230" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#cce0e8">◇  Sales pipeline</text>
+<text x="38" y="282" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#cce0e8">▤  Customer records</text>
+<text x="38" y="334" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#cce0e8">ⓘ  About this demo</text>
+<path d="M32 622 H198" stroke="#3b586b"/>
+<text x="35" y="648" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#e5fcf6" font-weight="bold">Safe public preview</text>
+<text x="35" y="669" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#b8d2dc">Synthetic data only</text>
+<text x="35" y="688" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#b8d2dc">No backend or storage</text>
+<text x="273" y="45" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#087b78" font-weight="bold" letter-spacing="1.4">INDEPENDENT SOFTWARE PORTFOLIO · DJANGO CASE STUDY</text>
+<text x="273" y="99" font-family="Arial,Helvetica,sans-serif" font-size="37" fill="#142739" font-weight="bold">Sales &amp; service overview</text>
+<text x="273" y="128" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#607a8b">A visual demonstration of business workflows modeled in a CRM project.</text>
+<rect x="974" y="31" width="193" height="29" rx="14" fill="#fff4de" stroke="#ead9af"/>
+<circle cx="992" cy="46" r="4" fill="#ad8c2e"/>
+<text x="1004" y="50" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#906514" font-weight="bold">SYNTHETIC DATA</text>
+<rect x="273" y="154" width="894" height="58" rx="10" fill="#e6f8f3" stroke="#b7ded6"/>
+<text x="292" y="178" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#165e58" font-weight="bold">Illustrative UI, not the live CRM.</text>
+<text x="292" y="197" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#416c65">Independent static showcase. All names, values and activity are invented.</text>
+<g filter="url(#shade)">
+<rect x="273" y="233" width="210" height="118" rx="14" fill="white" stroke="#dee9ef"/>
+<rect x="501" y="233" width="210" height="118" rx="14" fill="white" stroke="#dee9ef"/>
+<rect x="729" y="233" width="210" height="118" rx="14" fill="white" stroke="#dee9ef"/>
+<rect x="957" y="233" width="210" height="118" rx="14" fill="white" stroke="#dee9ef"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="291" y="260" fill="#657f90" font-size="12">Active opportunities</text>
+<text x="291" y="315" fill="#172f44" font-size="35" font-weight="bold">4</text>
+<text x="291" y="333" fill="#7a94a3" font-size="10">Excludes closed stages</text>
+<text x="519" y="260" fill="#657f90" font-size="12">Estimated pipeline</text>
+<text x="519" y="315" fill="#172f44" font-size="32" font-weight="bold">$23,300</text>
+<text x="519" y="333" fill="#7a94a3" font-size="10">Illustrative amount</text>
+<text x="747" y="260" fill="#657f90" font-size="12">Needs a follow-up</text>
+<text x="747" y="315" fill="#172f44" font-size="35" font-weight="bold">2</text>
+<text x="747" y="333" fill="#7a94a3" font-size="10">Synthetic overdue items</text>
+<text x="975" y="260" fill="#657f90" font-size="12">Inactivity radar</text>
+<text x="975" y="315" fill="#172f44" font-size="35" font-weight="bold">2</text>
+<text x="975" y="333" fill="#7a94a3" font-size="10">No contact / 7+ days</text>
+</g>
+<g filter="url(#shade)"><rect x="273" y="372" width="542" height="284" rx="16" fill="#fff" stroke="#e1e9ed"/><rect x="834" y="372" width="333" height="284" rx="16" fill="#fff" stroke="#e1e9ed"/></g>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="296" y="405" font-size="18" font-weight="bold" fill="#1b3247">Opportunity radar</text>
+<text x="296" y="427" font-size="12" fill="#667f8e">Open deals without recent interaction</text>
+<rect x="712" y="390" rx="12" width="81" height="24" fill="#fff0dc"/>
+<text x="753" y="406" font-size="11" fill="#a26716" text-anchor="middle" font-weight="bold">7-day rule</text>
+<line x1="296" x2="790" y1="451" y2="451" stroke="#e7edf0"/>
+<text x="296" y="482" font-size="14" font-weight="bold" fill="#1b3247">Propulsion inspection</text>
+<text x="296" y="502" font-size="12" fill="#718a98">Demo Client A · Vessel Alpha</text>
+<rect x="637" y="469" width="155" height="26" rx="13" fill="#fff0f1"/>
+<text x="714" y="486" text-anchor="middle" font-size="11" fill="#bb4e56" font-weight="bold">9 days since contact</text>
+<line x1="296" x2="790" y1="528" y2="528" stroke="#e7edf0"/>
+<text x="296" y="559" font-size="14" font-weight="bold" fill="#1b3247">Control system assessment</text>
+<text x="296" y="579" font-size="12" fill="#718a98">Demo Client C · Vessel Gamma</text>
+<rect x="629" y="547" width="163" height="26" rx="13" fill="#fff4dd"/>
+<text x="710" y="565" text-anchor="middle" font-size="11" fill="#a66d20" font-weight="bold">No contact recorded</text>
+<text x="856" y="405" font-size="18" font-weight="bold" fill="#1b3247">Workflow snapshot</text>
+<text x="856" y="427" font-size="12" fill="#667f8e">Key relational domain concepts</text>
+</g>
+<g fill="#f5f9fa" stroke="#e3eef1"><rect x="855" y="452" width="91" height="68" rx="11"/><rect x="955" y="452" width="91" height="68" rx="11"/><rect x="1055" y="452" width="91" height="68" rx="11"/></g>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<text x="901" y="478" font-size="12" fill="#1c384a" font-weight="bold">Customers</text>
+<text x="901" y="498" font-size="10" fill="#6b8191">Contacts</text>
+<text x="1000" y="478" font-size="12" fill="#1c384a" font-weight="bold">Pipeline</text>
+<text x="1000" y="498" font-size="10" fill="#6b8191">9 stages</text>
+<text x="1100" y="478" font-size="12" fill="#1c384a" font-weight="bold">Follow-ups</text>
+<text x="1100" y="498" font-size="10" fill="#6b8191">Due dates</text>
+</g>
+<rect x="855" y="539" width="290" height="93" rx="12" fill="#eef9f6" stroke="#d5eae3"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#386a63" font-size="12">
+<text x="869" y="560">This demo simulates the UI only.</text>
+<text x="869" y="580">The private application uses Django</text>
+<text x="869" y="600">models, views and a database.</text>
+</g>
+<text x="273" y="700" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#557584" font-weight="bold">ILLUSTRATIVE PORTFOLIO DEMO — NOT A SCREENSHOT OF THE DEPLOYED CRM</text>
+</svg>
